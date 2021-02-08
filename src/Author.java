@@ -32,4 +32,5 @@ public class Author extends Person {
     public String fullName() {
         return String.format("%s, %s", lastName, firstName);
     }
+
 }
